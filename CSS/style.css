@@ -4,6 +4,12 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Roboto Mono", serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-color: #585858;
 }
 
 .cabecalho{
@@ -12,6 +18,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
+    margin: auto;
+    position: sticky;
+    top: 0;
 
     & .logo{
         display: flex;
@@ -40,3 +50,30 @@
     }
 
 }
+
+.Home{
+ display: flex;
+ padding: 150px 20px;
+ flex-direction: column;
+ gap: 50px;
+ max-width: 1283px;
+ margin: auto;
+
+
+ & h1{
+    font-size: 50px;
+    text-align: right;
+ }
+
+ & .imagens{
+    align-items: center;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+ }
+ 
+ & p{
+    text-align: center;
+ }
+
+ }

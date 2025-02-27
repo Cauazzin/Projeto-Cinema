@@ -77,3 +77,83 @@ body{
  }
 
  }
+
+ .Em-cartaz {
+    width: 80%;
+    margin: 20px auto;
+
+    & .h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+   & .filme{
+    background-color: #333;
+    padding: 20px;  
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   } 
+    
+   & .filme img{
+    width: 200px;
+    border-radius: 10px;
+   }
+
+   & .descricao{
+    text-align: left;
+   }
+
+   & h2{
+    color: #ffffff;
+   }
+
+   & p{
+    font-size: 14px;
+   }
+}
+
+.Em-breve {
+    text-align: center;
+    color: white;
+
+    & h1{
+        font-style: italic;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    & .movies{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    & .movie{
+        text-align: center;
+        color: white;
+    }
+
+    & .movie img{
+    width: 180px;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    & .movie p{
+        margin: 5px 0 0;
+        font-weight: bold;
+        font-size: 16px;
+        text-shadow: 1px 1px 2px black;
+        color: white;
+        font-family: 'Arial', sans-serif;
+
+    }
+
+}
+''
